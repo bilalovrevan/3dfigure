@@ -44,7 +44,7 @@ namespace _3dFigures
             }
 
             Cylinder cylinder = new Cylinder();
-            l1:
+            l2:
             try
             {
                 Console.Write("Slindrin radiusunu daxil edin: ");
@@ -58,7 +58,7 @@ namespace _3dFigures
             {
 
                 Console.WriteLine("ededleri duzgun daxil edin: "); 
-                goto l1;
+                goto l2;
             }
             Cuboid cuboid = new Cuboid();
             l3:
